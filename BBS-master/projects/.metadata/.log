@@ -1,0 +1,447 @@
+!SESSION 2019-02-01 00:53:12.195 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-01 00:53:30.256
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-01 00:57:54.844
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-02-01 00:58:41.987
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-01 00:58:58.035
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-01 00:59:20.627
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-01 01:01:10.175
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-01 01:04:57.451
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-01 01:09:59.771
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-01 02:41:20.349
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-01 10:33:42.053
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-01 11:16:05.694
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-01 11:16:06.892
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-01 11:16:07.659
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-02-01 11:16:08.732
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-02-01 14:06:47.432
+!MESSAGE Failed to initialize module for: Classpath jar file /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.nio.file.NoSuchFileException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1220)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:146)
+	at org.eclipse.jdt.internal.core.builder.ClasspathMultiReleaseJar.initializeModule(ClasspathMultiReleaseJar.java:64)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.initModule(ModulePathEntry.java:80)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.<init>(ModulePathEntry.java:47)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.collectModuleEntries(NameEnvironment.java:421)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:287)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:625)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:176)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-02-01 14:06:47.442
+!MESSAGE Failed to initialize module for: Classpath jar file /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.nio.file.NoSuchFileException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1220)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:146)
+	at org.eclipse.jdt.internal.core.builder.ClasspathMultiReleaseJar.initializeModule(ClasspathMultiReleaseJar.java:64)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.initModule(ModulePathEntry.java:80)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.<init>(ModulePathEntry.java:47)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.collectModuleEntries(NameEnvironment.java:421)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:287)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:626)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:176)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2019-02-01 14:06:47.495
+!MESSAGE /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.io.FileNotFoundException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.physicallyOpen(JavaEEBinaryComponentLoadAdapter.java:105)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.accessArchive(JavaEEBinaryComponentHelper.java:534)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:473)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
+	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
+	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:81)
+	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:52)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.shouldAddComponentFile(FlatVirtualComponent.java:284)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addFile(VirtualComponentFlattenUtility.java:123)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:99)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembers(VirtualComponentFlattenUtility.java:51)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.treeWalk(FlatVirtualComponent.java:230)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:188)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.fetchResources(FlatVirtualComponent.java:118)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.members(FlatComponentDeployable.java:234)
+	at org.eclipse.jst.j2ee.internal.deployables.J2EEFlexProjDeployable.members(J2EEFlexProjDeployable.java:272)
+	at org.eclipse.wst.server.core.internal.ModulePublishInfo.hasDelta(ModulePublishInfo.java:435)
+	at org.eclipse.wst.server.core.internal.ServerPublishInfo.hasDelta(ServerPublishInfo.java:440)
+	at org.eclipse.wst.server.core.internal.Server.hasPublishedResourceDelta(Server.java:1600)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob$1.visit(Server.java:217)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3065)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3049)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob.run(Server.java:233)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2019-02-01 14:06:47.500
+!MESSAGE /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.io.FileNotFoundException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.physicallyOpen(JavaEEBinaryComponentLoadAdapter.java:105)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.accessArchive(JavaEEBinaryComponentHelper.java:534)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:473)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
+	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
+	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:81)
+	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:52)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.shouldAddComponentFile(FlatVirtualComponent.java:284)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addFile(VirtualComponentFlattenUtility.java:123)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:99)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembers(VirtualComponentFlattenUtility.java:51)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.treeWalk(FlatVirtualComponent.java:230)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:188)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:160)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:259)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:270)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getChildModules(TomcatServer.java:386)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2647)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3068)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3049)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob.run(Server.java:233)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2019-02-01 14:06:47.823
+!MESSAGE /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.io.FileNotFoundException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.physicallyOpen(JavaEEBinaryComponentLoadAdapter.java:105)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.accessArchive(JavaEEBinaryComponentHelper.java:534)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:473)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
+	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
+	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:81)
+	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:52)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.shouldAddComponentFile(FlatVirtualComponent.java:284)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addFile(VirtualComponentFlattenUtility.java:123)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:99)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembers(VirtualComponentFlattenUtility.java:51)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.treeWalk(FlatVirtualComponent.java:230)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:188)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:160)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:259)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:270)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getChildModules(TomcatServer.java:386)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2647)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3068)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3049)
+	at org.eclipse.wst.server.core.internal.Server.shouldRestart(Server.java:1299)
+	at org.eclipse.wst.server.ui.internal.cnf.ServerDecorator.getServerStatusLabel(ServerDecorator.java:145)
+	at org.eclipse.wst.server.ui.internal.cnf.ServerDecorator.decorate(ServerDecorator.java:73)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:261)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:107)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:380)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:362)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:350)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:313)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-02-01 14:11:09.449
+!MESSAGE Failed to initialize module for: Classpath jar file /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.nio.file.NoSuchFileException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1220)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:146)
+	at org.eclipse.jdt.internal.core.builder.ClasspathMultiReleaseJar.initializeModule(ClasspathMultiReleaseJar.java:64)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.initModule(ModulePathEntry.java:80)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.<init>(ModulePathEntry.java:47)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.collectModuleEntries(NameEnvironment.java:421)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:287)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:625)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:176)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-02-01 14:11:09.488
+!MESSAGE Failed to initialize module for: Classpath jar file /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.nio.file.NoSuchFileException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1220)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:146)
+	at org.eclipse.jdt.internal.core.builder.ClasspathMultiReleaseJar.initializeModule(ClasspathMultiReleaseJar.java:64)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.initModule(ModulePathEntry.java:80)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.<init>(ModulePathEntry.java:47)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.collectModuleEntries(NameEnvironment.java:421)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:287)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:626)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:176)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2019-02-01 14:11:09.537
+!MESSAGE /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.io.FileNotFoundException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.physicallyOpen(JavaEEBinaryComponentLoadAdapter.java:105)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.accessArchive(JavaEEBinaryComponentHelper.java:534)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:473)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
+	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
+	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:81)
+	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:52)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.shouldAddComponentFile(FlatVirtualComponent.java:284)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addFile(VirtualComponentFlattenUtility.java:123)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:99)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembers(VirtualComponentFlattenUtility.java:51)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.treeWalk(FlatVirtualComponent.java:230)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:188)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.fetchResources(FlatVirtualComponent.java:118)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.members(FlatComponentDeployable.java:234)
+	at org.eclipse.jst.j2ee.internal.deployables.J2EEFlexProjDeployable.members(J2EEFlexProjDeployable.java:272)
+	at org.eclipse.wst.server.core.internal.ModulePublishInfo.hasDelta(ModulePublishInfo.java:435)
+	at org.eclipse.wst.server.core.internal.ServerPublishInfo.hasDelta(ServerPublishInfo.java:440)
+	at org.eclipse.wst.server.core.internal.Server.hasPublishedResourceDelta(Server.java:1600)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob$1.visit(Server.java:217)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3065)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3049)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob.run(Server.java:233)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-02-01 14:11:49.909
+!MESSAGE Failed to initialize module for: Classpath jar file /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.nio.file.NoSuchFileException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1220)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:146)
+	at org.eclipse.jdt.internal.core.builder.ClasspathMultiReleaseJar.initializeModule(ClasspathMultiReleaseJar.java:64)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.initModule(ModulePathEntry.java:80)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.<init>(ModulePathEntry.java:47)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.collectModuleEntries(NameEnvironment.java:421)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:287)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:625)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:176)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-02-01 14:11:49.914
+!MESSAGE Failed to initialize module for: Classpath jar file /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.nio.file.NoSuchFileException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1220)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:845)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:245)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:175)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:146)
+	at org.eclipse.jdt.internal.core.builder.ClasspathMultiReleaseJar.initializeModule(ClasspathMultiReleaseJar.java:64)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.initModule(ModulePathEntry.java:80)
+	at org.eclipse.jdt.internal.core.builder.ModulePathEntry.<init>(ModulePathEntry.java:47)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.collectModuleEntries(NameEnvironment.java:421)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:287)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:62)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:626)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:176)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2019-02-01 14:11:49.955
+!MESSAGE /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+!STACK 0
+java.io.FileNotFoundException: /home/helen/Documents/JSP/projects/BBS/WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentLoadAdapter.physicallyOpen(JavaEEBinaryComponentLoadAdapter.java:105)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper$ArchiveCache.accessArchive(JavaEEBinaryComponentHelper.java:534)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.openArchive(JavaEEBinaryComponentHelper.java:473)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getUniqueArchive(JavaEEBinaryComponentHelper.java:422)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getArchive(JavaEEBinaryComponentHelper.java:415)
+	at org.eclipse.jst.j2ee.internal.componentcore.JavaEEBinaryComponentHelper.getJavaEEQuickPeek(JavaEEBinaryComponentHelper.java:98)
+	at org.eclipse.jst.j2ee.project.JavaEEProjectUtilities.getJ2EEComponentType(JavaEEProjectUtilities.java:273)
+	at org.eclipse.jst.j2ee.internal.common.exportmodel.JEEHeirarchyExportParticipant.isChildModule(JEEHeirarchyExportParticipant.java:81)
+	at org.eclipse.wst.common.componentcore.internal.flat.GlobalHeirarchyParticipant.isChildModule(GlobalHeirarchyParticipant.java:52)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.shouldAddComponentFile(FlatVirtualComponent.java:284)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addFile(VirtualComponentFlattenUtility.java:123)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:99)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembersInternal(VirtualComponentFlattenUtility.java:96)
+	at org.eclipse.wst.common.componentcore.internal.flat.VirtualComponentFlattenUtility.addMembers(VirtualComponentFlattenUtility.java:51)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.treeWalk(FlatVirtualComponent.java:230)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:188)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.fetchResources(FlatVirtualComponent.java:118)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.members(FlatComponentDeployable.java:234)
+	at org.eclipse.jst.j2ee.internal.deployables.J2EEFlexProjDeployable.members(J2EEFlexProjDeployable.java:272)
+	at org.eclipse.wst.server.core.internal.ModulePublishInfo.hasDelta(ModulePublishInfo.java:435)
+	at org.eclipse.wst.server.core.internal.ServerPublishInfo.hasDelta(ServerPublishInfo.java:440)
+	at org.eclipse.wst.server.core.internal.Server.hasPublishedResourceDelta(Server.java:1600)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob$1.visit(Server.java:217)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:3065)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:3049)
+	at org.eclipse.wst.server.core.internal.Server$ResourceChangeJob.run(Server.java:233)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
