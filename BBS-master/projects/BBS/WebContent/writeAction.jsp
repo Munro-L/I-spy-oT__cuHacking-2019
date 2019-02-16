@@ -22,7 +22,7 @@
 		if(userID==null){
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
-			script.println("alert('로그인을 하세요.')");
+			script.println("alert('You should login to access.')");
 			script.println("location.href='login.jsp'");
 			script.println("</script>");
 		}else{
@@ -30,7 +30,7 @@
 			if(bbs.getBbsTitle() == null|| bbs.getBbsContent()==null){
 				PrintWriter script = response.getWriter();
 				script.println("<script>");
-				script.println("alert('입력이 안 된 사항이 있습니다.')");
+				script.println("alert('You left something blank.')");
 				script.println("history.back()");
 				script.println("</script>");
 			}
@@ -40,7 +40,7 @@
 				if(result == -1){
 					PrintWriter script = response.getWriter();
 					script.println("<script>");
-					script.println("alert('글쓰기에 실패했습니다')");
+					script.println("alert('Writing failed')");
 					script.println("history.back()");
 					script.println("</script>");					
 				}else{

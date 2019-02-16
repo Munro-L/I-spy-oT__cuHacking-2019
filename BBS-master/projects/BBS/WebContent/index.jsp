@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>질문있어요!</title>
+<title>What are your IoTs sending?</title>
 </head>
 <body>
 	<script>

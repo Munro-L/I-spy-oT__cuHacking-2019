@@ -6,11 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html, charset="UTF-8">
 <meta name="viewport" content="width=device-width", intial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.css">
-<title>질문있어요!</title>
+<title>Dashboard</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">질문있어요 게시판</a>
+	  <a class="navbar-brand" href="#">Dashboard</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -50,14 +50,14 @@
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top: 20px;">
 				<form method="post" action="loginAction.jsp">
-					<h3 style="text-align:center;">로그인 화면</h3>
+					<h3 style="text-align:center;">Login page</h3>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
+						<input type="text" class="form-control" placeholder="ID" name="userID" maxlength="20">
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+						<input type="text" class="form-control" placeholder="PASSWORD" name="userPassword" maxlength="20">
 					</div>
-					<input type="submit" class="btn btn-primary form-control" value="로그인">
+					<input type="submit" class="btn btn-primary form-control" value="login">
 				</form>
 			
 			</div>
@@ -65,8 +65,7 @@
 	</div>
 	
 	<div class="container">
-		<p>안녕하세요 여러분. 이 웹사이트는 오직 우리 반을 위해서 만들어졌답니다.
-	서로 궁금한 것들을 질문하고 답 하면서 즐거운 학급을 만들어갑시다! </p>
+		<p>Records and visualize the data being sent to the big guys! </p>
 	</div>
 	<script
   src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

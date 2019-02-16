@@ -7,7 +7,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width" initial-scale="1">
 		<link rel="stylesheet" href="css/bootstrap.css">
-		<title>온라인 교실</title>
+		<title>Write</title>
 	</head>
 	<body>
 		<%
@@ -26,12 +26,12 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>	
 				</button>
-				<a class="navbar-brand" href="main.jsp">온라인 교실</a>				
+				<a class="navbar-brand" href="main.jsp">Main page</a>				
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="main.jsp">메인</a></li>
-					<li class="active"><a href="bbs.jsp">게시판</a></li>
+					<li class="active"><a href="bbs.jsp">Dashboard</a></li>
 				</ul>
 				<%
 					if(userID==null){
@@ -40,10 +40,10 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle"
 							data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">접속하기<span class="caret"></span></a>
+							aria-expanded="false">Connect<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="login.jsp">로그인</a></li>
-							<li><a href="join.jsp">회원가입</a></li>
+							<li><a href="login.jsp">Login</a></li>
+							<li><a href="join.jsp">Sign up</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -54,9 +54,9 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle"
 							data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">회원관리<span class="caret"></span></a>
+							aria-expanded="false">Manage IoT<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="logoutAction.jsp">로그아웃</a></li>
+							<li><a href="logoutAction.jsp">Logout</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -73,7 +73,7 @@
 				<table class="table table-striped">
 					<thead>
 						<tr>
-							<th colspan="2" style="background-color:#eeeeee; text-align: center;">게시판 글쓰기</th>
+							<th colspan="2" style="background-color:#eeeeee; text-align: center;">Write</th>
 						</tr>				
 					</thead>
 					<tbody>
