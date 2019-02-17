@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/home/helen/Documents/JSP/projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1543451362.index
+/BBS/src
+/home/helen/Documents/cuHacking-2019/BBS-master/projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1543451362.index
+/BBS/src
+/home/helen/Documents/JSP/projects/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1475898543.index
+/BBS/src

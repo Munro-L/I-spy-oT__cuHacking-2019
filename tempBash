@@ -1,0 +1,13 @@
+
+for i in {1..10000};
+do
+        data=$i
+        echo $data
+        timestamp=$(date "+%T")
+        echo $timestamp
+        JSON=\''{"temp":"'"$data"'","timeStamp":"'"$timestamp"'"}'\'
+        #curl http://httpbin.org/post --proxy http://34.73.58.235:3128
+        export http_proxy=http://34.73.58.235:3128
+        curl -H "Content-Type: application/json" -d '{"temp":'"$data"',"timeStamp":"'"$timestamp"'"}' -X POST http://34.73.52.137:8080/logTemps
+        sleep 1
+done

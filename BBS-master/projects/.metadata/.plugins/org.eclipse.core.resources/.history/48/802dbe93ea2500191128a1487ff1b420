@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html, charset="UTF-8">
+<meta name="viewport" content="width=device-width", intial-scale="1">
+<link rel="stylesheet" href="css/bootstrap.css">
+<title>질문있어요!</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+			data-toggle="collapse" data-target="bs-example-navbar-collapse-1"
+			aria-expanded="false">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="main.jsp">JSP 게시판 웹사이트</a>
+		</div>
+	</nav>
+	
+		<p>안녕하세요 여러분. 이 웹사이트는 오직 우리 반을 위해서 만들어졌답니다.
+	서로 궁금한 것들을 질문하고 답 하면서 즐거운 학급을 만들어갑시다! </p>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js"></script>
+</html>
