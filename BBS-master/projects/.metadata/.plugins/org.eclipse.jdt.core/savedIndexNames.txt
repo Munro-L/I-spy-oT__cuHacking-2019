@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/helen/Documents/cuHacking-2019/BBS-master/projects/.metadata/.plugins/org.eclipse.jdt.core
+3432486728.index
+2586186771.index
+3567797507.index
+646308851.index
