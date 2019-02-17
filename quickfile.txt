@@ -1,0 +1,54 @@
+            .heading {
+              display: block;
+              position: relative;
+              color: #515d6e;
+              text-align: right;
+              z-index: 10;
+              font-size: 1.2em;
+              font-weight: 300;
+              text-transform: uppercase;
+            }
+            .dashboard-brief {
+            margin-bottom: 16px;
+            box-shadow: 1px 1px 2px 0 #CCCCCC;
+            padding: 20px;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+            background: white !important;
+          }
+          .value {
+          display: block;
+          position: relative;
+          color: #515d6e;
+          text-align: right;
+          z-index: 10;
+          font-size: 1.2em;
+          font-weight: 300;
+          text-transform: uppercase;
+          }
+          <div class="dashboard-brief">
+                        <i class="fa fa-compass" aria-hidden="true"></i>
+          							<span class="heading">Location</span>
+          							<span class="value"><span>Ottawa</span></span>
+          						</div>
+
+
+                      <div class="row">
+          					<div class="col-lg-3 col-xs-6">
+          						<div class="dashboard-brief">
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+          							<span class="heading">Email Id</span>
+          							<span class="value"><span>user1@example.com</span></span>
+          						</div>
+          					</div>
+                    <div class="col-lg-3 col-xs-6">
+                    </div>
+          					<div class="col-lg-3 col-xs-6">
+          					</div>
+          					<div class="col-lg-3 col-xs-6">
+          						<div class="dashboard-brief">
+                        <i class="fa fa-compass" aria-hidden="true"></i>
+          							<span class="heading">Location</span>
+          							<span class="value"><span>Ottawa</span></span>
+          						</div>
+          					</div>
+          				</div>
