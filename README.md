@@ -1,5 +1,7 @@
 # cuHacking-2019
 
+![alt text](https://raw.githubusercontent.com/Munro-L/I-spy-oT__cuHacking-2019/master/presentations/banner.JPG)
+
 Ever wonder how much of your data IoT devices might be sending back to their servers?
 
 Our project provides a method for us to keep track of how much of our data is being sent out. Obviously, blocking the sending of our data may prevent devices from working, but we would at least like a clean way to catalog what data is going where.
