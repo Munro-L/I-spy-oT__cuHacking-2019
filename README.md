@@ -1,4 +1,4 @@
-# cuHacking-2019
+# cuHacking-2019 [TOP 5 FINALIST]
 
 ![alt text](https://raw.githubusercontent.com/Munro-L/I-spy-oT__cuHacking-2019/master/presentations/banner.JPG)
 
